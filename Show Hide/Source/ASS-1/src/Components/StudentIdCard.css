@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  .mainCard_Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+  
+  }
+  
+  .card {
+    height: 310px;
+    width: 450px;
+    border-radius: 9px;
+    padding: 12px;
+    margin: 25px;
+    background-color: white;
+  }
+  
+  .card:hover {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    transform: translateY(-4px);
+  }
+  
+  .Section_1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+  }
+  
+  .Section_2 {
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
+  }
+  
+  /* img{
+      height: 155px;
+      width: 170px;
+  } */
+  .image_Container {
+    display: inline-block;
+    /* width: 30%; */
+  }
+  
+  .info_Container {
+    padding: 12px;
+  }
+  
+  #emp_image {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #00848f;
+    border-radius: 50%;
+  }
+  
+  #logo_Css {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #00848f;
+    border-radius: 6px;
+    padding: 3px;
+  }
+  
+  strong {
+    color: #00848f;
+    margin: 0px 3px 0px 0px;
+  }
+  
+  
+  p {
+    margin: 8px 0px 0px 0px;
+  }
+  
+  
+  .Link_para_tag {
+    text-align: center;
+  
+    margin: -10px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+  
+  
+    .mainCard_Container {
+      display: flex;
+      height: 100%;
+      width: 100vw;
+      justify-content: center;
+      background-color: antiquewhite;
+      flex-wrap: wrap;
+  
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+  
+  
+    .mainCard_Container {
+      display: flex;
+      height: 100%;
+      width: 100vw;
+      justify-content: center;
+      background-color: antiquewhite;
+      flex-wrap: wrap;
+  
+    }
+  
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 400px) {
+  
+  
+    .mainCard_Container {
+      display: flex;
+      height: 100%;
+      width: 100vw;
+      justify-content: center;
+      background-color: antiquewhite;
+      flex-wrap: wrap;
+  
+    }
+  
+  }
